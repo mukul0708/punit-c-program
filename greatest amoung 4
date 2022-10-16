@@ -40,8 +40,13 @@ if(c>b){
     }
     
 }
-else{
-    printf("%d is greatest",d);
+if(d>b){
+    if(a<d){
+        if(c<d){
+            printf("%d is greatest",d);
+        }
+    }
+    
 }
 
     return 0;
